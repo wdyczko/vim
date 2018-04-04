@@ -22,8 +22,11 @@ Plug 'bling/vim-airline'
 Plug 'majutsushi/tagbar'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
 noremap <Leader><Leader>n gt
 noremap <Leader><Leader>p gT
+
+let g:gitgutter_enabled = 0
