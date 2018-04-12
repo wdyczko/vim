@@ -16,6 +16,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
+Plug 'craigemery/vim-autotag'
 
 call plug#end()
 
@@ -24,9 +25,13 @@ let mapleader=","
 nnoremap <F8> :TagbarToggle<CR>
 nnoremap <leader><leader>p gT
 nnoremap <leader><leader>n gt
+nnoremap <leader>e :NERDTreeToggle<CR>
+
+set tags+="/tmp/mytag.tags"
 
 let g:gitgutter_enabled = 1
 let g:gitgutter_updatetime = 500
+let g:autotagTagsFile=".tags"
 
 set tabstop=4
 set shiftwidth=4
