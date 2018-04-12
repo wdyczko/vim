@@ -33,6 +33,6 @@ noremap <Leader><Leader>p gT
 
 let g:gitgutter_enabled = 0
 
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+set tabstop=4
+set shiftwidth=4
+set expandtab
