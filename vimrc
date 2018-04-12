@@ -19,11 +19,14 @@ Plug 'kien/ctrlp.vim'
 
 call plug#end()
 
+let mapleader=","
+
 nnoremap <F8> :TagbarToggle<CR>
-nnoremap <F3> gT
-nnoremap <F4> gt
+nnoremap <leader><leader>p gT
+nnoremap <leader><leader>n gt
 
 let g:gitgutter_enabled = 1
+let g:gitgutter_updatetime = 500
 
 set tabstop=4
 set shiftwidth=4
