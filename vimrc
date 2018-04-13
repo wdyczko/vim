@@ -20,14 +20,12 @@ Plug 'craigemery/vim-autotag'
 
 call plug#end()
 
-let mapleader=","
+let mapleader=";"
 
 nnoremap <F8> :TagbarToggle<CR>
 nnoremap <leader><leader>p gT
 nnoremap <leader><leader>n gt
 nnoremap <leader>e :NERDTreeToggle<CR>
-
-set tags+="/tmp/mytag.tags"
 
 let g:gitgutter_enabled = 1
 let g:gitgutter_updatetime = 500
