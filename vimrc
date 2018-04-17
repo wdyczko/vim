@@ -17,6 +17,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
 Plug 'craigemery/vim-autotag'
+Plug 'vim-scripts/grep.vim'
+Plug 'flazz/vim-colorschemes'
 
 call plug#end()
 
@@ -34,3 +36,5 @@ let g:autotagTagsFile=".tags"
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+colorscheme molokai
