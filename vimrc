@@ -25,26 +25,28 @@ call plug#end()
 
 let mapleader=";"
 
+nnoremap <F4> :Rgrep 
 nnoremap <F8> :TagbarToggle<CR>
 nnoremap <leader><leader>p gT
 nnoremap <leader><leader>n gt
 nnoremap <leader>e :NERDTreeToggle<CR>
-nnoremap <F4> :Rgrep 
 
 let g:gitgutter_enabled = 1
 let g:gitgutter_updatetime = 500
-let g:autotagTagsFile=".tags"
+
+let g:autotagTagsFile =".tags"
+
 let g:ctrlp_working_path_mode = 0
 
-let g:multi_cursor_use_default_mapping = 0
-let g:multi_cursor_start_word_key      = '<C-n>'
-let g:multi_cursor_select_all_word_key = '<C-b>'
-let g:multi_cursor_start_key           = 'g<C-n>'
-let g:multi_cursor_select_all_key      = 'g<C-b>'
-let g:multi_cursor_next_key            = '<C-n>'
-let g:multi_cursor_prev_key            = '<C-p>'
-let g:multi_cursor_skip_key            = '<C-x>'
-let g:multi_cursor_quit_key = '<Esc>'
+let g:multi_cursor_use_default_mapping  = 0
+let g:multi_cursor_start_word_keys = '<C-n>'
+let g:multi_cursor_select_all_word_key  = '<C-b>'
+let g:multi_cursor_start_keys = 'g<C-n>'
+let g:multi_cursor_select_all_keys = 'g<C-b>'
+let g:multi_cursor_next_keys = '<C-n>'
+let g:multi_cursor_prev_keys = '<C-p>'
+let g:multi_cursor_skip_keys = '<C-x>'
+let g:multi_cursor_quit_key  = '<Esc>'
 
 set tabstop=4
 set shiftwidth=4
