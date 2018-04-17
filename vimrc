@@ -32,6 +32,7 @@ nnoremap <leader>e :NERDTreeToggle<CR>
 let g:gitgutter_enabled = 1
 let g:gitgutter_updatetime = 500
 let g:autotagTagsFile=".tags"
+let g:ctrlp_working_path_mode = 0
 
 set tabstop=4
 set shiftwidth=4
