@@ -40,6 +40,6 @@ set shiftwidth=4
 set expandtab
 
 set notagrelative
-set tag+=/tmp/mytags;/tmp/tags
+set tag+=/tmp/mytags,/tmp/tags
 
 colorscheme molokai
