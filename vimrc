@@ -35,6 +35,16 @@ let g:gitgutter_updatetime = 500
 let g:autotagTagsFile=".tags"
 let g:ctrlp_working_path_mode = 0
 
+let g:multi_cursor_use_default_mapping = 0
+let g:multi_cursor_start_word_key      = '<C-n>'
+let g:multi_cursor_select_all_word_key = '<C-b>'
+let g:multi_cursor_start_key           = 'g<C-n>'
+let g:multi_cursor_select_all_key      = 'g<C-b>'
+let g:multi_cursor_next_key            = '<C-n>'
+let g:multi_cursor_prev_key            = '<C-p>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key = '<Esc>'
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
