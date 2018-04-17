@@ -19,6 +19,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'craigemery/vim-autotag'
 Plug 'vim-scripts/grep.vim'
 Plug 'flazz/vim-colorschemes'
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
