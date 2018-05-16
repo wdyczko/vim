@@ -25,11 +25,13 @@ call plug#end()
 
 let mapleader=";"
 
-nnoremap <F4> :Rgrep 
+nnoremap <F3> :%s///gn<CR>
+nnoremap <F4> :Rgrep -I 
 nnoremap <F8> :TagbarToggle<CR>
 nnoremap <leader><leader>p gT
 nnoremap <leader><leader>n gt
 nnoremap <leader>e :NERDTreeToggle<CR>
+nnoremap * *``
 
 let g:gitgutter_enabled = 1
 let g:gitgutter_updatetime = 500
@@ -52,7 +54,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-set notagrelative
 set tag+=/tmp/tags,/tmp/.tags
 
 colorscheme molokai
