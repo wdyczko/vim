@@ -119,6 +119,8 @@ set tag+=/tmp/tags,/tmp/.tags
 " Set color scheme
 colorscheme molokai
 
+hi illuminatedWord term=underline cterm=underline gui=underline
+
 function! QH_command(msg)
     echohl PreProc
     echon a:msg
