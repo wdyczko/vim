@@ -13,7 +13,7 @@ Plug 'scrooloose/nerdtree'
 " Help to surround fragments of text with ', ", (), {}, []
 Plug 'tpope/vim-surround'
 " Status line
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
 " Tagbar that groups functions, variables etc.
 Plug 'majutsushi/tagbar'
 " Easy motion, shorts command amount to the goal line
