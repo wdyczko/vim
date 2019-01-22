@@ -8,6 +8,11 @@
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'Shougo/unite.vim'
+Plug 'devjoe/vim-codequery'
+Plug 'tpope/vim-dispatch'
+Plug 'mileszs/ack.vim'
+
 " NERDTree explorer, visual explorer of file system
 Plug 'scrooloose/nerdtree'
 " Help to surround fragments of text with ', ", (), {}, []
