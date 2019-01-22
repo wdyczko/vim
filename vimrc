@@ -118,7 +118,7 @@ set expandtab " Use 4 spaces when using <TAB>
 set tag+=/tmp/tags,/tmp/.tags
 
 " Set color scheme
-colorscheme molokai
+silent! colorscheme molokai
 
 hi illuminatedWord term=underline cterm=underline gui=underline
 
