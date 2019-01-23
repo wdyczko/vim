@@ -13,8 +13,6 @@ Plug 'devjoe/vim-codequery'
 Plug 'tpope/vim-dispatch'
 Plug 'mileszs/ack.vim'
 
-" NERDTree explorer, visual explorer of file system
-Plug 'scrooloose/nerdtree'
 " Help to surround fragments of text with ', ", (), {}, []
 Plug 'tpope/vim-surround'
 " Status line
@@ -67,7 +65,7 @@ nnoremap * *``
 
 " Plug 'scrooloose/nerdtree' configuration section
 " Map ;e to NERDTreeToggle
-nnoremap <leader>e :NERDTreeToggle<CR>
+nnoremap <leader>e :Explore<CR>
 
 " Plug 'tpope/vim-surround' configuration section
 
