@@ -12,6 +12,18 @@ Plug 'Shougo/unite.vim'
 Plug 'devjoe/vim-codequery'
 Plug 'tpope/vim-dispatch'
 Plug 'mileszs/ack.vim'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<F3>"
+let g:UltiSnipsJumpForwardTrigger="<F5>"
+let g:UltiSnipsJumpBackwardTrigger="<F4>"
+
+imap <F8> <C-R>=UltiSnips#ListSnippets()<CR>
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 
 " Help to surround fragments of text with ', ", (), {}, []
 Plug 'tpope/vim-surround'
@@ -117,6 +129,7 @@ nnoremap <leader>e :Explore<CR>
 " Plug 'majutsushi/tagbar' configuration section
 " Map <F8> to Tagbar toggle
 nnoremap <F8> :TagbarToggle<CR>
+
 
 " Plug 'easymotion/vim-easymotion' configuration section
 
