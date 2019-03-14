@@ -160,8 +160,8 @@ nmap <leader>q :wq!<CR>
 nmap <leader><leader>q :q!<CR>
 nmap <leader>t :Texplore<CR>
 imap <leader><leader>s <C-R>=UltiSnips#ExpandSnippet()<CR>
-imap <leader><leader>n <C-R>=UltiSnips#JumpForwards<CR>
-imap <leader><leader>p <C-R>=UltiSnips#JumpBackwards<CR>
+imap <leader><leader>n <C-R>=UltiSnips#JumpForwards()<CR>
+imap <leader><leader>p <C-R>=UltiSnips#JumpBackwards()<CR>
 
 " Plug 'majutsushi/tagbar' configuration section
 nnoremap <F8> :TagbarToggle<CR>
