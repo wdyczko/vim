@@ -66,8 +66,6 @@ Plug 'roman/golden-ratio'
 Plug 't9md/vim-choosewin'
 " Easy swap windows
 Plug 'wesq3/vim-windowswap'
-" Buffer management
-Plug 'jeetsukumaran/vim-buffergator'
 " Async run
 Plug 'skywind3000/asyncrun.vim'
 " Syntastic
