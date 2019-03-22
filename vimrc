@@ -60,8 +60,6 @@ Plug 'godlygeek/tabular'
 Plug 'chrisbra/vim-diff-enhanced'
 " Diff directories
 Plug 'will133/vim-dirdiff'
-" Keep windows in golden ratio
-Plug 'roman/golden-ratio'
 " Choose window
 Plug 't9md/vim-choosewin'
 " Easy swap windows
